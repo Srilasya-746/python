@@ -1,0 +1,6 @@
+num=int(input("enter:"))
+if num>17:
+    print(2 * abs(num-17))
+else:
+   print(abs(num-17))
+        

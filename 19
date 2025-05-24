@@ -1,0 +1,7 @@
+string=input()
+new_string="is"+string
+print(new_string)
+if string==new_string:
+    print(new_string)
+else:
+    print("no")

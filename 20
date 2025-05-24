@@ -1,0 +1,4 @@
+string=input("string:")
+num=int(input("n:"))
+copy=string*num
+print(copy)

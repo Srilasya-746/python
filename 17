@@ -1,0 +1,7 @@
+num=int(input("enter:"))
+if abs(1000 - num) <= 100:
+    print("yes")
+elif abs(2000-num) <=100:
+    print("no")
+else:
+    print("nothing")

@@ -1,0 +1,9 @@
+name = input("Enter a string: ")
+n = int(input("Enter a non-negative number: "))
+
+if len(name) < 2:
+    part = name
+else:
+    part = name[:2]
+
+print(part * n)

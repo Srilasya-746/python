@@ -1,0 +1,3 @@
+elements = ['Hello', 'World']
+result = ''.join(elements)
+print(result)

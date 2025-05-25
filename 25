@@ -1,0 +1,6 @@
+num1=3
+group1=[1, 5, 8, 3]
+print("num1->group1:",num1 in group1)
+num2=-1
+group2=[1, 5, 8, 3]
+print("num2->group2:",num2 in group2)

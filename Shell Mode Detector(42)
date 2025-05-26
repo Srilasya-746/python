@@ -1,0 +1,3 @@
+import platform
+bit_mode = platform.architecture()[0]
+print(f"Python is running in {bit_mode} mode.")

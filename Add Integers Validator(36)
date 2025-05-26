@@ -1,0 +1,7 @@
+def add(a,c):
+    if type(a) == int and type(c) == int:
+        return a+c
+    else:
+        return "both should be  integers"
+print(add(2,3))
+print(add(2,"Hi"))

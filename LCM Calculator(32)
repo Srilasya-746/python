@@ -1,0 +1,10 @@
+def lcm(a,b):
+    great=max(a,b)
+    while True:
+        if great%a==0 and great%b==0:
+            return great
+        great+=1 
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+
+print("LCM is:", lcm(a, b))        

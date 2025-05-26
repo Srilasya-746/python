@@ -1,0 +1,5 @@
+def final(p,r,y):
+    f=p*(1+r/100)**y
+    return f
+result=final(10000,3.5,7)    
+print(result)

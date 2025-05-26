@@ -1,0 +1,6 @@
+name = "John Doe"
+age = 25
+address = "123 Main Street, Cityville"
+print("Name:", name)
+print("Age:", age)
+print("Address:", address)

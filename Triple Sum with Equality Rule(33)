@@ -1,0 +1,9 @@
+num1=int(input("enter a:"))
+num2=int(input("enter b:"))
+num3=int(input("enter c:"))
+sum=num1+num2+num3
+if num1==num2 or num2==num3 or num1==num3: 
+    sum=0
+    print(sum)
+else:
+    print(sum)
